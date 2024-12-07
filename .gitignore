@@ -1,0 +1,20 @@
+.DS_Store
+.vscode/
+# Ignorar ejecutables y binarios
+*.exe
+*.out
+*.bin
+*.o
+*.dll
+*.so
+*.dylib
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos generados por el IDE (como Visual Studio Code, IntelliJ, etc.)
+.vscode/
+.idea/
+#carpetas a ignorar
+Gazebo_projects/Mover_Robot/
+Gazebo_projects/robot_mania/

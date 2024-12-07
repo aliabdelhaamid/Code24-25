@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<sdf version = "1.10">
+    <!--"DE MOMENTO ESTA ES MI PLANTILLA"-->
+    <world>
+        
+    </world>
+    <model>
+
+    </model>
+    <actor>
+
+    </actor>
+    <light>
+
+    </light>
+</sdf>

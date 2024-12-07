@@ -1,0 +1,42 @@
+Instrucciones
+
+Primera entrega del proyecto final.
+
+Construye un programa en C que simule los movimientos de un robot. La posición del robot será un par de coordenadas (x,y) enteras. Los movimientos permitidos son girar en cualquier ángulo y avanzar una casilla, moviéndose a cualquiera de las 8 adyacentes. si no hay obstáculos en ella. 
+
+Consideraciones:
+
+El mundo tiene un tamaño de 50x50, limitado por muros.
+El estado de una casilla se define de la siguiente manera
+obstáculo: -1 (muros o cualquier otro tipo)
+libre: 0
+Salida:
+
+El programa debe imprimir en pantalla las posiciones en las que se encuentra el robot en cada instante de tiempo, una en cada línea, separadas por comas, junto con el estado de la casilla actual. Por ejemplo
+
+x1, y1
+x2, y2
+x3, y3
+x4, y4
+...
+
+Por ejemplo, si tu código está en el ejecutable rumba, puedes generar un fichero out.txt con las coordenadas mediante el comando
+
+$./roomba > out.txt
+
+Si quieres ver el camino que ha seguido, puedes hacerlo con la siguiente orden
+
+$gnuplot -persist -e "plot 'out.txt' with lines"
+
+"-persist" es para que mantenga el gráfico en la pantalla y "-e" para que ejecute el la instrucción que está después entre comillas.
+
+Sugerencias:
+
+usa una estructura para guardar la información del robot
+implementa girar y avanzar como funciones
+intenta alguna estrategia de movimiento: random, recto hasta que choque con una pared...
+no compliques el código porque luego tendrás que usar el simulador para la competición, que te dará muchas de estas funcionalidades
+Entrega:
+
+Para la entrega de la tarea, sube el código del programa que cumple estos requerimientos. Una entrega por cada equipo. Incluye en la respuesta el nombre de los participantes en el grupo.
+
